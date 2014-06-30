@@ -19,14 +19,22 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		//die('tidak ditemukan');
+		$this->load->helper('url');
+		//$this->load->view('welcome_message');
+		$this->halo();
 	}
 	
 	//dibawah ini cuma tambahan
 	public function halo()
 	{
-	echo "hai";
+	$data['title'] = "halo world";
+	$this->load->view("gusti-locate", $data);
+	/*echo "hai";
+	echo "<br></br>";
+	echo "ini adalah contoh";*/
 	}
+	
 }
 
 /* End of file welcome.php */

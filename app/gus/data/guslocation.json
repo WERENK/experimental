@@ -1,0 +1,21 @@
+//tempatnya di CI/app/data
+
+{ 'success' : true,
+'result': // root to called, if there is any data inside
+[
+{
+"id":"3114100001",
+"title":"Teknik Multimedia",
+"description":"Salah satu jurusan di ITS",
+"address":"Jl. Teknik Mesin, ITS, Surabaya",
+"tag":"Pendidikan"
+},
+{
+"id":"3114121001",
+"title":"Tugu Pahlawan",
+"description":"Landmark perjuangan para pahlawan",
+"address":"Tembaan, Surabaya",
+"tag":"Landmark"
+}
+]
+}
